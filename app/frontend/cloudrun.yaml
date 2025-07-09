@@ -16,7 +16,7 @@ spec:
 #        run.googleapis.com/network-interfaces: '[{"network":"cnsrun-app", "subnetwork":"cnsrun-PROJECT_ID"}]'
 #        run.googleapis.com/vpc-access-egress: all-traffic
     spec:
-      containerConcurrency: 10
+      containerConcurrency: 5
       timeoutSeconds: 300
       serviceAccountName: cnsrun-app-frontend@PROJECT_ID.iam.gserviceaccount.com
       containers:
