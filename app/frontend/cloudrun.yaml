@@ -18,7 +18,7 @@ spec:
     spec:
       containerConcurrency: 5
       timeoutSeconds: 300
-      serviceAccountName: cnsrun-app-frontend@PROJECT_ID.iam.gserviceaccount.com
+      serviceAccountName: cnsrun-app-frontend@turing-thought-463613-h5.iam.gserviceaccount.com
       containers:
       - image: frontend
         env:
